@@ -1,0 +1,157 @@
+.mynav  a:hover{
+    color: aqua !important; 
+}
+.mynav{
+    letter-spacing: 2px;
+    
+}
+body{
+    background-color: mintcream;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('computers.png');
+    background-size: cover;
+}
+.text-box{
+    font-family: 'Prompt', sans-serif;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+.text-box h1{
+    font-size: 50px;
+    margin: 10px;
+}
+.text-box h3{
+    font-size: 25px;
+}
+@media(max-width:826px){
+    .text-box h1{
+        font-size: 15px;
+    }
+    .text-box h3{
+        font-size: 11px;
+    }
+}
+
+.about{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+  
+}
+.project{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+}
+.about p{
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    
+}
+
+.skills{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contact {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+   
+}
+
+
+.row{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    background-color: #fff3f3;
+    border-radius: 10px;
+    padding: 20px 12px;
+    margin: 5%;
+    box-sizing: border-box;
+    font-size: larger;
+}
+.col:hover{
+box-shadow: 0 0 20px 0 rgba(0,0,0,0.4);
+
+}
+.prog img:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.4);
+    
+    }
+
+@media(max-width:998px){
+  .about-me p{
+      margin-top: 20px;
+      font-size: 15px;
+
+  } 
+  
+  .my-img img{
+    max-width: 150px;
+    max-height: 150px;
+  }
+  
+  
+ 
+}
+@media(max-width:411px){
+    .about-me p{
+        margin-top: 20px;
+        font-size: 12px;
+    } 
+    
+    .my-img img{
+      max-width: 150px;
+      max-height: 150px;
+    }
+   
+  }
+.my-img img{
+
+border: 8px solid transparent;
+border-image: linear-gradient(45deg, red, yellow);
+border-image-slice: 1;
+}
+.about-me {
+    margin: 20px;
+    background-image: linear-gradient(#bdc3c7 , #2c3e50);
+    
+    background-size: cover;
+}
+.about-me p{
+    color: white;
+    font-weight: 500;
+}
+
+
+.prog{
+    background-image: linear-gradient(#ffecd2, #fcb69f);
+    height: 50vh;
+}
+.pr{
+    background-image: linear-gradient(#ef3b36 ,#ffffff);
+}
+@media(max-width:1200px){
+    .flex-container{
+    display: flex;
+    flex-direction: column;
+    }
+   
+}
